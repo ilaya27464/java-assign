@@ -68,7 +68,7 @@ else
 
 ## Output:
 
-![comparison](https://user-images.githubusercontent.com/103128410/224521491-127f4db7-62b8-48ef-873e-b1a55e7a547d.png)
+![Screenshot (242)](https://user-images.githubusercontent.com/127576283/224525983-d4c3a1b7-a331-4c3c-9d9b-658a586f1ecf.png)
 
 
 
@@ -76,14 +76,14 @@ else
 
 ## Program:
 ```
-)import java.util.Scanner;
-public class StringToInteger{
+import java.util.Scanner;
+public class StringToInt{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the string:");
+        System.out.println("Enter the string to be converted:");
         String str= sc.nextLine();
         int num= Integer.parseInt(str);
-        System.out.println("The integer value of the string is: "+num);
+        System.out.println("The integer value is: "+num);
     }
 }
 ```
@@ -98,15 +98,15 @@ public class StringToInteger{
 ## Program:
 ```
 import java.util.Scanner;
-public class AreaOfRhombus{
+public class Area{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the first diagonal length(d1):");
+        System.out.println("Enter the first diagonal:");
         float d1= sc.nextFloat();
-        System.out.println("Enter the second diagonal length(d2):");
+        System.out.println("Enter the second diagonal:");
         float d2= sc.nextFloat();
         float area=d1*d2/2;
-        System.out.println("The area of the rhombus in sq. units: "+area);
+        System.out.println("The area of the rhombus : "+area);
     }
 }
 ```
@@ -121,13 +121,11 @@ public class AreaOfRhombus{
 ## Program:
 ```
 import java.util.Scanner;
-public class DaysInMonth{
+public class Days{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the month in number:");
         int month=sc.nextInt();
-        System.out.print("Enter the year:");
-        int year=sc.nextInt();
         switch(month)
         {
             case 1:
@@ -146,14 +144,7 @@ public class DaysInMonth{
                 System.out.print("\nThis month has 30 days.");
             break;
             case 2:
-                if(year%4==0)
-                {
-                    System.out.print("\nThis month has 29 days.");
-                }
-                else
-                {
                     System.out.print("\nThis month has 28 days.");
-                }
             break;
             default:
                 System.out.print("Enter a valid number of the month.");
@@ -244,10 +235,8 @@ public class Tables{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number for which the table has to generated: ");
-        int num=sc.nextInt();
-        System.out.print("Enter the limit for the table: ");
-        int limit=sc.nextInt();
-        for(int i=1;i<=limit;i++)
+        int num=sc.nextInt();        
+        for(int i=1;i<=10;i++)
         {
             System.out.print(num+"x"+i+"="+num*i);
             System.out.print("\n");
