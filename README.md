@@ -1,4 +1,4 @@
-# JAVA_FULL_STACK.
+# JAVA_FULL_STACK_ASSIGNMENT_1
 ```
 Java Full Stack Assignment 1.
 Submitted by : Ilayaraja.M
