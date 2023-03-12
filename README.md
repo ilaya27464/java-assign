@@ -113,8 +113,7 @@ public class Area{
 
 ## Output:
 
-![areaofrhombus](https://user-images.githubusercontent.com/103128410/224521814-ed8e1bd2-ac1a-4ee0-8b22-2881db766b3e.png)
-
+![Screenshot (244)](https://user-images.githubusercontent.com/127576283/224526425-160b7d28-ab76-4050-bc36-e3f8acdab77f.png)
 
 # 5)Write a Java program to find the number of days in a month.
 
@@ -155,7 +154,7 @@ public class Days{
 
 ## Output:
 
-![daysinmonth](https://user-images.githubusercontent.com/103128410/224521944-4f40e3f5-50c6-4802-84b0-5ef8dfca70e2.png)
+![Screenshot (245)](https://user-images.githubusercontent.com/127576283/224526447-26dfe561-a62d-4880-9020-96c2d460e4a4.png)
 
 
 # 6)Write a Java program to print the even numbers from 1 to 20.
@@ -180,7 +179,7 @@ public class EvenNumber{
 
 ## Output:
 
-![evennumbers](https://user-images.githubusercontent.com/103128410/224522049-84e6ccdf-5e1f-4ce0-bdfe-7e263868abf2.png)
+![Screenshot (246)](https://user-images.githubusercontent.com/127576283/224526465-4333d40e-8b33-4c84-b687-0435b6a786d9.png)
 
 # 7) Write a Java program to create a simple calculator.
 
@@ -231,7 +230,7 @@ public class Calculator{
 ## Program:
 ```
 import java.util.Scanner;
-public class Tables{
+public class Tab{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number for which the table has to generated: ");
@@ -247,4 +246,4 @@ public class Tables{
 
 ## Output:
 
-![tables](https://user-images.githubusercontent.com/103128410/224522251-dd528134-fd9c-4e0c-8e25-c26ae56c7ef5.png)
+![Screenshot (247)](https://user-images.githubusercontent.com/127576283/224526477-961fd6ee-3d21-492f-8e88-1cda9e3dcf70.png)
