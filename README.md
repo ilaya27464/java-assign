@@ -90,7 +90,7 @@ public class StringToInt{
 
 ## Output:
 
-![stringtoint](https://user-images.githubusercontent.com/103128410/224521631-f19a6d36-a336-4c61-8aad-c086623b5784.png)
+![Screenshot (243)](https://user-images.githubusercontent.com/127576283/224526548-3b52623d-64c9-4955-9c20-351f1d529c2c.png)
 
 
 # 4) Java Program to find area of rhombus.
