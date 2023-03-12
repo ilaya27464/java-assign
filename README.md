@@ -12,16 +12,16 @@ Register number : 212221040057.
 ## Program:
 ```
 import java.util.Scanner;
-public class MathOperation{
+public class Operations{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the numbers:");
+        System.out.println("Enter the numbers for performing operation:");
 int num1 =sc.nextInt();
 int num2= sc.nextInt();
 int sum=num1+num2;
 System.out.println("Sum of two numbers: "+sum);
 int sub=num1-num2;
-System.out.println("Subtraction of two numbers: "+sub);
+System.out.println("Difference of two numbers: "+sub);
 int mul=num1*num2;
 System.out.println("Product of two numbers: "+mul);
 float divi=num1/num2;
@@ -33,7 +33,8 @@ System.out.println("Remainder of two numbers: "+rem);
 ```
 
 ## Output:
-![MathOperations](https://user-images.githubusercontent.com/103128410/224521300-02c6b64f-ab4a-4346-bf47-2ba22238fad2.png)
+![Screenshot (241)](https://user-images.githubusercontent.com/127576283/224525817-290571bb-fad9-4abc-8a47-5ccb1052e874.png)
+
 
 
 
